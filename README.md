@@ -29,7 +29,7 @@ npm install
 
 My database name is `contact`. You can create your own
 And then create this table
-``
+````
 CREATE TABLE IF NOT EXISTS `con` (
   `con_id` int(11) NOT NULL AUTO_INCREMENT,
   `con_name` varchar(50) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `con` (
   PRIMARY KEY (`con_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
-``
+````
 Now you are good to go, just run
 `node index` forom the project folder and browse to http://localhost:8081/ which will show you the awesome
 
