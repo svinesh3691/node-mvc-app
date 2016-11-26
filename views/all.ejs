@@ -1,0 +1,15 @@
+<html>
+<body>
+	<h1><%= title %></h1>
+
+	<a href="http://localhost:8081/new">New</a> 
+	
+	<% for(var i=0; i<rows.length; i++) {%>
+	   	<li>	
+	   		<%= rows[i].con_name %>  : <%= rows[i].con_num %> 
+	   		<a href="http://localhost:8081/edit/<%= rows[i].con_id %>">Edit</a> 
+	   	</li>
+	<% } %>
+
+</body>
+</html>

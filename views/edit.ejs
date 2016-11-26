@@ -1,0 +1,16 @@
+<html>
+<body>
+	<h1><%= title %></h1>
+
+	<a href="http://localhost:8081/">Back</a> 
+
+	<form action="http://localhost:8081/edit_save" method="post">
+		<input type="hidden" name="con_id"  value="<%= rows[0].con_id %>" ><br><br> 
+		Name 	: <input type="text" name="con_name"  value="<%= rows[0].con_name %>" ><br><br> 
+		Mobile 	: <input type="text" name="con_num" value="<%= rows[0].con_num  %>"><br> 
+		<br> <input type="submit">
+
+	</form>
+
+</body>
+</html>

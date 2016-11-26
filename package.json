@@ -1,0 +1,33 @@
+{
+  "name": "node-mvc-app",
+  "version": "1.0.0",
+  "description": "MVC structure in node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svinesh3691/node-mvc-app.git"
+  },
+  "keywords": [
+    "MVC",
+    "node",
+    "mvc",
+    "structure",
+    "in",
+    "node"
+  ],
+  "author": "S Vinesh <svinesh3691@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svinesh3691/node-mvc-app/issues"
+  },
+  "homepage": "https://github.com/svinesh3691/node-mvc-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0"
+  }
+}
