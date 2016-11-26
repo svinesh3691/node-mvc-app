@@ -1,4 +1,4 @@
-# node-mvc-app
+# Mode MVC Application
 
 MVC structure in node JS
 
@@ -39,6 +39,6 @@ CREATE TABLE IF NOT EXISTS `con` (
 
 ````
 Now you are good to go, just run
-`node index` forom the project folder and browse to http://localhost:8081/ which will show you the awesome
+`node index` from the project folder and browse to http://localhost:8081/ which will show you the awesome
 
 Good luck! 
