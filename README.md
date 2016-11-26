@@ -1,4 +1,4 @@
-# Mode MVC Application
+# Node MVC Application
 
 MVC structure in node JS
 
